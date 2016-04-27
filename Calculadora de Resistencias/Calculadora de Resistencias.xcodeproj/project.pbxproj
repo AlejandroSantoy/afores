@@ -1,0 +1,510 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		360C6FC71C76507B00AE37E8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 360C6FC61C76507B00AE37E8 /* AppDelegate.swift */; };
+		360C6FC91C76507B00AE37E8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 360C6FC81C76507B00AE37E8 /* ViewController.swift */; };
+		360C6FCC1C76507B00AE37E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 360C6FCA1C76507B00AE37E8 /* Main.storyboard */; };
+		360C6FCE1C76507C00AE37E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 360C6FCD1C76507C00AE37E8 /* Assets.xcassets */; };
+		360C6FD11C76507C00AE37E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 360C6FCF1C76507C00AE37E8 /* LaunchScreen.storyboard */; };
+		360C6FDC1C76507C00AE37E8 /* Calculadora_de_ResistenciasTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 360C6FDB1C76507C00AE37E8 /* Calculadora_de_ResistenciasTests.swift */; };
+		360C6FE71C76507D00AE37E8 /* Calculadora_de_ResistenciasUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 360C6FE61C76507D00AE37E8 /* Calculadora_de_ResistenciasUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		360C6FD81C76507C00AE37E8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 360C6FBB1C76507A00AE37E8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 360C6FC21C76507A00AE37E8;
+			remoteInfo = "Calculadora de Resistencias";
+		};
+		360C6FE31C76507D00AE37E8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 360C6FBB1C76507A00AE37E8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 360C6FC21C76507A00AE37E8;
+			remoteInfo = "Calculadora de Resistencias";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		360C6FC31C76507A00AE37E8 /* Calculadora de Resistencias.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Calculadora de Resistencias.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		360C6FC61C76507B00AE37E8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		360C6FC81C76507B00AE37E8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		360C6FCB1C76507B00AE37E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		360C6FCD1C76507C00AE37E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		360C6FD01C76507C00AE37E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		360C6FD21C76507C00AE37E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		360C6FD71C76507C00AE37E8 /* Calculadora de ResistenciasTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Calculadora de ResistenciasTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		360C6FDB1C76507C00AE37E8 /* Calculadora_de_ResistenciasTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calculadora_de_ResistenciasTests.swift; sourceTree = "<group>"; };
+		360C6FDD1C76507D00AE37E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		360C6FE21C76507D00AE37E8 /* Calculadora de ResistenciasUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Calculadora de ResistenciasUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		360C6FE61C76507D00AE37E8 /* Calculadora_de_ResistenciasUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calculadora_de_ResistenciasUITests.swift; sourceTree = "<group>"; };
+		360C6FE81C76507D00AE37E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		360C6FC01C76507A00AE37E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		360C6FD41C76507C00AE37E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		360C6FDF1C76507D00AE37E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		360C6FBA1C76507900AE37E8 = {
+			isa = PBXGroup;
+			children = (
+				360C6FC51C76507B00AE37E8 /* Calculadora de Resistencias */,
+				360C6FDA1C76507C00AE37E8 /* Calculadora de ResistenciasTests */,
+				360C6FE51C76507D00AE37E8 /* Calculadora de ResistenciasUITests */,
+				360C6FC41C76507A00AE37E8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		360C6FC41C76507A00AE37E8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				360C6FC31C76507A00AE37E8 /* Calculadora de Resistencias.app */,
+				360C6FD71C76507C00AE37E8 /* Calculadora de ResistenciasTests.xctest */,
+				360C6FE21C76507D00AE37E8 /* Calculadora de ResistenciasUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		360C6FC51C76507B00AE37E8 /* Calculadora de Resistencias */ = {
+			isa = PBXGroup;
+			children = (
+				360C6FC61C76507B00AE37E8 /* AppDelegate.swift */,
+				360C6FC81C76507B00AE37E8 /* ViewController.swift */,
+				360C6FCA1C76507B00AE37E8 /* Main.storyboard */,
+				360C6FCD1C76507C00AE37E8 /* Assets.xcassets */,
+				360C6FCF1C76507C00AE37E8 /* LaunchScreen.storyboard */,
+				360C6FD21C76507C00AE37E8 /* Info.plist */,
+			);
+			path = "Calculadora de Resistencias";
+			sourceTree = "<group>";
+		};
+		360C6FDA1C76507C00AE37E8 /* Calculadora de ResistenciasTests */ = {
+			isa = PBXGroup;
+			children = (
+				360C6FDB1C76507C00AE37E8 /* Calculadora_de_ResistenciasTests.swift */,
+				360C6FDD1C76507D00AE37E8 /* Info.plist */,
+			);
+			path = "Calculadora de ResistenciasTests";
+			sourceTree = "<group>";
+		};
+		360C6FE51C76507D00AE37E8 /* Calculadora de ResistenciasUITests */ = {
+			isa = PBXGroup;
+			children = (
+				360C6FE61C76507D00AE37E8 /* Calculadora_de_ResistenciasUITests.swift */,
+				360C6FE81C76507D00AE37E8 /* Info.plist */,
+			);
+			path = "Calculadora de ResistenciasUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		360C6FC21C76507A00AE37E8 /* Calculadora de Resistencias */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 360C6FEB1C76507D00AE37E8 /* Build configuration list for PBXNativeTarget "Calculadora de Resistencias" */;
+			buildPhases = (
+				360C6FBF1C76507A00AE37E8 /* Sources */,
+				360C6FC01C76507A00AE37E8 /* Frameworks */,
+				360C6FC11C76507A00AE37E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Calculadora de Resistencias";
+			productName = "Calculadora de Resistencias";
+			productReference = 360C6FC31C76507A00AE37E8 /* Calculadora de Resistencias.app */;
+			productType = "com.apple.product-type.application";
+		};
+		360C6FD61C76507C00AE37E8 /* Calculadora de ResistenciasTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 360C6FEE1C76507D00AE37E8 /* Build configuration list for PBXNativeTarget "Calculadora de ResistenciasTests" */;
+			buildPhases = (
+				360C6FD31C76507C00AE37E8 /* Sources */,
+				360C6FD41C76507C00AE37E8 /* Frameworks */,
+				360C6FD51C76507C00AE37E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				360C6FD91C76507C00AE37E8 /* PBXTargetDependency */,
+			);
+			name = "Calculadora de ResistenciasTests";
+			productName = "Calculadora de ResistenciasTests";
+			productReference = 360C6FD71C76507C00AE37E8 /* Calculadora de ResistenciasTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		360C6FE11C76507D00AE37E8 /* Calculadora de ResistenciasUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 360C6FF11C76507D00AE37E8 /* Build configuration list for PBXNativeTarget "Calculadora de ResistenciasUITests" */;
+			buildPhases = (
+				360C6FDE1C76507D00AE37E8 /* Sources */,
+				360C6FDF1C76507D00AE37E8 /* Frameworks */,
+				360C6FE01C76507D00AE37E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				360C6FE41C76507D00AE37E8 /* PBXTargetDependency */,
+			);
+			name = "Calculadora de ResistenciasUITests";
+			productName = "Calculadora de ResistenciasUITests";
+			productReference = 360C6FE21C76507D00AE37E8 /* Calculadora de ResistenciasUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		360C6FBB1C76507A00AE37E8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Alejandro Santoyo";
+				TargetAttributes = {
+					360C6FC21C76507A00AE37E8 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = T9EL6J2ZFJ;
+					};
+					360C6FD61C76507C00AE37E8 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = T9EL6J2ZFJ;
+						TestTargetID = 360C6FC21C76507A00AE37E8;
+					};
+					360C6FE11C76507D00AE37E8 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = T9EL6J2ZFJ;
+						TestTargetID = 360C6FC21C76507A00AE37E8;
+					};
+				};
+			};
+			buildConfigurationList = 360C6FBE1C76507A00AE37E8 /* Build configuration list for PBXProject "Calculadora de Resistencias" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 360C6FBA1C76507900AE37E8;
+			productRefGroup = 360C6FC41C76507A00AE37E8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				360C6FC21C76507A00AE37E8 /* Calculadora de Resistencias */,
+				360C6FD61C76507C00AE37E8 /* Calculadora de ResistenciasTests */,
+				360C6FE11C76507D00AE37E8 /* Calculadora de ResistenciasUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		360C6FC11C76507A00AE37E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				360C6FD11C76507C00AE37E8 /* LaunchScreen.storyboard in Resources */,
+				360C6FCE1C76507C00AE37E8 /* Assets.xcassets in Resources */,
+				360C6FCC1C76507B00AE37E8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		360C6FD51C76507C00AE37E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		360C6FE01C76507D00AE37E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		360C6FBF1C76507A00AE37E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				360C6FC91C76507B00AE37E8 /* ViewController.swift in Sources */,
+				360C6FC71C76507B00AE37E8 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		360C6FD31C76507C00AE37E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				360C6FDC1C76507C00AE37E8 /* Calculadora_de_ResistenciasTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		360C6FDE1C76507D00AE37E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				360C6FE71C76507D00AE37E8 /* Calculadora_de_ResistenciasUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		360C6FD91C76507C00AE37E8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 360C6FC21C76507A00AE37E8 /* Calculadora de Resistencias */;
+			targetProxy = 360C6FD81C76507C00AE37E8 /* PBXContainerItemProxy */;
+		};
+		360C6FE41C76507D00AE37E8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 360C6FC21C76507A00AE37E8 /* Calculadora de Resistencias */;
+			targetProxy = 360C6FE31C76507D00AE37E8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		360C6FCA1C76507B00AE37E8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				360C6FCB1C76507B00AE37E8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		360C6FCF1C76507C00AE37E8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				360C6FD01C76507C00AE37E8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		360C6FE91C76507D00AE37E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		360C6FEA1C76507D00AE37E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		360C6FEC1C76507D00AE37E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "Calculadora de Resistencias/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "santoy.Calculadora-de-Resistencias";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		360C6FED1C76507D00AE37E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "Calculadora de Resistencias/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "santoy.Calculadora-de-Resistencias";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		360C6FEF1C76507D00AE37E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Calculadora de ResistenciasTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "santoy.Calculadora-de-ResistenciasTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Calculadora de Resistencias.app/Calculadora de Resistencias";
+			};
+			name = Debug;
+		};
+		360C6FF01C76507D00AE37E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Calculadora de ResistenciasTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "santoy.Calculadora-de-ResistenciasTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Calculadora de Resistencias.app/Calculadora de Resistencias";
+			};
+			name = Release;
+		};
+		360C6FF21C76507D00AE37E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Calculadora de ResistenciasUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "santoy.Calculadora-de-ResistenciasUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Calculadora de Resistencias";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		360C6FF31C76507D00AE37E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Calculadora de ResistenciasUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "santoy.Calculadora-de-ResistenciasUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Calculadora de Resistencias";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		360C6FBE1C76507A00AE37E8 /* Build configuration list for PBXProject "Calculadora de Resistencias" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				360C6FE91C76507D00AE37E8 /* Debug */,
+				360C6FEA1C76507D00AE37E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		360C6FEB1C76507D00AE37E8 /* Build configuration list for PBXNativeTarget "Calculadora de Resistencias" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				360C6FEC1C76507D00AE37E8 /* Debug */,
+				360C6FED1C76507D00AE37E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		360C6FEE1C76507D00AE37E8 /* Build configuration list for PBXNativeTarget "Calculadora de ResistenciasTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				360C6FEF1C76507D00AE37E8 /* Debug */,
+				360C6FF01C76507D00AE37E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		360C6FF11C76507D00AE37E8 /* Build configuration list for PBXNativeTarget "Calculadora de ResistenciasUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				360C6FF21C76507D00AE37E8 /* Debug */,
+				360C6FF31C76507D00AE37E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 360C6FBB1C76507A00AE37E8 /* Project object */;
+}
